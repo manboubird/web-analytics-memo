@@ -9,3 +9,7 @@ web analytics notes
 
 - [Schema Design](dataWarehouse/schemaDesign.md)
 
+### Others
+
+- [Resouces](resources.md)
+
