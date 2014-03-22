@@ -1,4 +1,11 @@
-web-analytics-memo
+web-analytics-notes
 ==================
 
-web analytics personal memo
+web analytics notes
+
+## Table of Contents
+
+### Data Warehouse
+
+- [Schema Design](dataWarehouse/schemaDesign.md)
+
