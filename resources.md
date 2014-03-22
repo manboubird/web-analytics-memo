@@ -12,5 +12,3 @@ Resources
 - [W. Eckerson. Secrets of Analytical Leaders: Insights from Information Insiders, 2012.][Eckerson12]
 [Eckerson12]: http://www.amazon.com/Secrets-Analytical-Leaders-Insights-Information/dp/1935504347 "W. Eckerson. Secrets of Analytical Leaders: Insights from Information Insiders, 2012."
 
-
-

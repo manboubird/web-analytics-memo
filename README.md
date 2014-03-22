@@ -8,6 +8,7 @@ web analytics notes
 ### Data Warehouse
 
 - [Schema Design](dataWarehouse/schemaDesign.md)
+- [Operations](dataWarehouse/operations.md)
 
 ### Others
 

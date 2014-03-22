@@ -1,56 +1,9 @@
-Schema Design
+Operations
 ==================
 
-## Demensional Modeling Fundamentals
+## Archiving 
 
-### Fact Tables
-
-#### Periodic Snapshot Designs
-
-Ref. [Adamson08:Ch8. Periodic Snapshot Designs][Adamson08]
-
-#### Factless Fact Tables
-
-Ref. [Adamson08:Ch8. Factless Fact Tables][Adamson08]
-
-
-### Demension Tables
-
-#### Slowly Changing Dimensions(SCD)
-
-Ref. [Kimball04:183][Kimball04]
-
-*SCD Type 1 Overwrite*
-
-A simple overwrite of one or more attributes in an existing dimension record.
-
-*SCD Type 2 Partitioning History*
-
-*SCD Type 3 Alternate Realities*
-
-*SCD Hibrid*
-
-
-#### Customer Demension
-
-Ref. [Kimball13:Ch.8 Customer Dimension Attributes][Kimball13]
-
-#### Cohort Analysis
-
-Ref. [Kimball13:Ch.8 Behavior Study Groups for Cohorts][Kimball13]
-
-
-### Drilling 
-
-Ref. [Kimball10:183][Kimball10]
-
-
-*Drilling Down*
-
-*Drilling Up*
-
-*Drilling Across*
-
+Ref. [Adamson08:Ch9. Aggregates and the Archive Strategy][Adamson08]
 
 
 ## Reference
