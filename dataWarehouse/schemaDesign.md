@@ -35,6 +35,44 @@ A simple overwrite of one or more attributes in an existing dimension record.
 
 Ref. [Kimball13:Ch.8 Customer Dimension Attributes][Kimball13]
 
+**Segmentation Attributes**
+
+- Gender
+- Ethnicity
+- Age
+- Status (new, active, inactive, and closed)
+- Referring source
+- Business-specific market Segmentation
+
+**Scoring and Profiling Customer**
+
+RFI(or RFM) cube: Three customer profiling facets.
+
+1. **Recency:** how many days has it been since the customer last ordered or visited your site. Ex. past days since last login/visited/payment.
+2. **Frequency:** how many times the customer has ordered or visited, typically in the past year. Ex. the number of login within last 7 days.
+3. **Intensity(or Monetary):** how much money the customer has spent over the same time period. Ex. life time value.
+
+Credit behavior and returns cluster:
+
+- A: high volume repeat customer, good credit, few product returns
+- B: High volume repeat customer, good credit, many product returns
+- C: Recent new customer, no established credit pattern
+- D: Occasional customer, good credit
+- E: Occasional customer, poor credit
+- F: Former good customer, not seen recently
+- G: Frequent window shopper, mostly unproductive
+- H: Other
+
+Time series behavoirs tagging:
+
+- The last 10 observations of a customer: C C C D D A A A B B
+
+Behavior tag handling
+
+- build explicit time series of attributes in the customer dimension.
+- create a single attribute with all the behavior tags concatenated together, such as CCCDDAAABB for wild card search.
+
+
 #### Cohort Analysis
 
 Ref. [Kimball13:Ch.8 Behavior Study Groups for Cohorts][Kimball13]

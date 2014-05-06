@@ -12,5 +12,6 @@ web analytics notes
 
 ### Others
 
+- [Marketing](marketing.md)
 - [Resouces](resources.md)
 

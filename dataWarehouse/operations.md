@@ -5,7 +5,6 @@ Operations
 
 Ref. [Adamson08:Ch9. Aggregates and the Archive Strategy][Adamson08]
 
-
 ## Reference
 
 - [R. Kimball. The Data Warehouse ETL Toolkit: Practical Techniques for Extracting, Cleaning, Conforming, and Delivering Data, 2004.][Kimball04]
