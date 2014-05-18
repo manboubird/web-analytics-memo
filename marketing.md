@@ -73,6 +73,21 @@ View through conversion users(95% users):
 
 Note that most users may not remember an ad they view, even the ad does not display on the screen.
 
+
+*Attribution Modeling*
+
+divide sources of conversions path into first page, intermediate pages and last pages. 
+
+Types of attribution Models:
+
+1. **even distribution model:** assgins contribution evenly. 
+
+2. **first weighted model:** assgins higher contribution to the first source. 
+
+3. **last weighted model:** assgins higher contribution to the last source. 
+
+4. **last click model:** assigns 100 contribution to the last click.
+
 - [Multi-Channel Attribution: Definitions, Models and a Reality Check](http://www.kaushik.net/avinash/multi-channel-attribution-definitions-models/)
 - 田中弦, アトリビューション 広告効果の考え方を根底から覆す新手法
 
