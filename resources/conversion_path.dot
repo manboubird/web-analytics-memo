@@ -1,0 +1,59 @@
+digraph G {
+  rankdir=LR;
+  node [shape=ellipse, fontsize=8]; 
+
+  subgraph cluster_vtc {
+    label="View through conversion" color=black
+
+    subgraph cluster_c {
+      label="C" color=white
+      c_view [label="view display ad",shape=box];
+      c_search [label="search",shape=diamond];
+      c_conversion [label="Conversion"];
+  
+      c_view -> c_search -> c_conversion;
+    } 
+  
+    subgraph cluster_d {
+      label="D" color=white
+      d_view [label="view display ad",shape=box];
+      d_other [label="other websites",shape=hexagon];
+      d_conversion [label="Conversion"];
+  
+      d_view -> d_other -> d_conversion;
+    }
+  
+    subgraph cluster_e {
+      label="E" color=white
+      e_view [label="view display ad",shape=box];
+      e_search [label="search",shape=diamond];
+      e_conversion [label="Conversion"];
+  
+      e_search -> e_view -> e_conversion;
+    }
+  }
+  subgraph cluster_ctc {
+    label="Click through conversion" color=black
+  
+    subgraph cluster_a {
+      label="A" color=white
+
+      a_view [label="view display ad",shape=box];
+      a_banner_click [label="display ad click"];
+      a_conversion [label="Conversion"];
+  
+      a_view -> a_banner_click -> a_conversion;
+    }
+  
+    subgraph cluster_b {
+      label="B" color=white
+
+      b_view [label="view display ad",shape=box];
+      b_banner_click [label="display ad click"];
+      b_search [label="search",shape=diamond];
+      b_conversion [label="Conversion"];
+  
+      b_view -> b_banner_click -> b_search -> b_conversion;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 Marketing
 ==================
 
-## Tools
+### Tools
 
 Query Builder
 
@@ -14,6 +14,11 @@ Cochort Analysis
 Segmentation
 
 - [LinkedIn's Segmentation & Targeting Platform (Hadoop Summit 2013)](http://www.slideshare.net/r39132/linkedins-segmentation-targeting-platform)
+
+## Framework
+
+### FRM
+
 
 ### AARRR
 
@@ -45,6 +50,33 @@ Segmentation
 - [Web Analytics Segments: 3 Key Category Recommendations](http://www.kaushik.net/avinash/web-analytics-segments-three-category-recommendations/)
 - [Advanced Web Analytics Visitor Segments: Non-Flirts, Social, Long Tail](http://www.kaushik.net/avinash/advanced-analytics-visitor-segments-engagement-social-media-search-long-tail/)
 
+### Attribution
+
+*Types of conversion path*
+
+![conversion_path](images/conversion_path.png)
+
+
+Click through conversion users(4% users):
+
+**A:** views an ad, clicks on the ad and reaches conversion.
+
+**B:** views an ad, clicks on the ad, search an item for more detail and reaches conversion.
+
+View through conversion users(95% users):
+
+**C:** views an ad, search an item without clicking on the ad and reaches conversion.
+
+**D:** views an ad, visit a website to survey on an item without clicking on the ad and reaches conversion.
+
+**E:** search a publisher website, view an ad and reach conversion without clicking on the ad.
+
+Note that most users may not remember an ad they view, even the ad does not display on the screen.
+
+- [Multi-Channel Attribution: Definitions, Models and a Reality Check](http://www.kaushik.net/avinash/multi-channel-attribution-definitions-models/)
+- 田中弦, アトリビューション 広告効果の考え方を根底から覆す新手法
+
+## Visualization
 
 ### Visitor FLow
 
@@ -58,4 +90,6 @@ Segmentation
 
 - [Funnel Problems in Google Analytics](http://www.lunametrics.com/blog/2008/06/25/funnel-problems-google-analytics/#sr=d&m=n&cp=d&ct=-tmc&ts=1399376525)
 - [Kimball13:Ch.8 Step Demension for Sequential Behavior][Kimball13]
+
+-
 
