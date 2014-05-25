@@ -13,5 +13,6 @@ web analytics notes
 ### Others
 
 - [Marketing](marketing.md)
+- [Tools](tools.md)
 - [Resouces](resources.md)
 

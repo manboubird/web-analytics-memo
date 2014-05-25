@@ -1,24 +1,7 @@
 Marketing
 ==================
 
-### Tools
-
-Query Builder
-
-- [Google Analytics Tools - Query Explorer](http://ga-dev-tools.appspot.com/explorer/)
-
-Cochort Analysis
-
-- [Cohort Visualizer » A handy tool for browsing cohort datasets](http://bslatkin.github.io/cohorts/)
-
-Segmentation
-
-- [LinkedIn's Segmentation & Targeting Platform (Hadoop Summit 2013)](http://www.slideshare.net/r39132/linkedins-segmentation-targeting-platform)
-
 ## Framework
-
-### FRM
-
 
 ### AARRR
 
@@ -33,15 +16,31 @@ Segmentation
  **Revenue:** users conduct some **monetization** behavor
 
 
-| type          | KPI          |   |
-| ------------- |:-------------:| -----:|
-| **A**cquisition   | registered user, |  |
-| **A**ctivation    |       |   |
-| **R**etentionipes | continuous. rate |     |
+| type          | KPI          | Analytic methods |
+|:---|:---|:---|
+| **A**cquisition   | registered user | funnel analysis |
+| **A**ctivation    |       | funnel analysis  |
+| **R**etentionipes | continuous. rate | retention analysis, segmentation |
 | **R**eferral      | inflow channels, CVR |
-| **R**evenue       | ARPPU |
+| **R**evenue       | ARPPU, LTV, churn rates | segmentation |
 
 - [Startup Metrics for Pirates (Sept 2012)](http://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-sept-2012/23)
+
+### FRM
+
+## Third Party Tools
+
+| Service | Features | Platform |
+|:---|:---|:---|
+| [Google Analytics](https://support.google.com/analytics/?hl=en#topic=3544906) |  |  |
+| [Mixpanel](https://mixpanel.com/segmentation/) | segmentation, funnel, retention |  |
+| [Localytics](http://support.localytics.com/Customer_Acquisition) |  |  |
+| [Flurry Analytics](http://www.flurry.com/solutions/analytics)  |  |  |
+| [Countly](https://count.ly/resources/reference/features) | cohort-based retention | |
+| [Appsee](http://www.appsee.com/) |  |  |
+
+- [An App Analytics Tools Round-Up - Learn How People Use Your App](http://www.apptamin.com/blog/app-analytics-tools/)
+- [Kissmetrics vs Mixpanel : Start-Up Metrics](http://www.hoista.net/post/42841141761/kissmetrics-vs-mixpanel-start-up-metrics)
 
 
 ### Segmentation
@@ -49,6 +48,16 @@ Segmentation
 - [Google Analytics Visitor Segmentation: Users, Sequences, Cohorts! - Occam's Razor by Avinash Kaushik](http://www.kaushik.net/avinash/google-analytics-visitor-segmentation-users-sequences-cohorts/)
 - [Web Analytics Segments: 3 Key Category Recommendations](http://www.kaushik.net/avinash/web-analytics-segments-three-category-recommendations/)
 - [Advanced Web Analytics Visitor Segments: Non-Flirts, Social, Long Tail](http://www.kaushik.net/avinash/advanced-analytics-visitor-segments-engagement-social-media-search-long-tail/)
+- [LinkedIn's Segmentation & Targeting Platform (Hadoop Summit 2013)](http://www.slideshare.net/r39132/linkedins-segmentation-targeting-platform)
+
+
+### Cochort Analysis
+
+- [Cohort Visualizer » A handy tool for browsing cohort datasets](http://bslatkin.github.io/cohorts/)
+
+### AB Test
+
+- [Mixpanel Blog | Mobile Analytics](https://mixpanel.com/blog/2010/08/05/mixpanel-tip-153-executing-ab-tests/)
 
 ### Attribution
 
@@ -106,5 +115,7 @@ Types of attribution Models:
 - [Funnel Problems in Google Analytics](http://www.lunametrics.com/blog/2008/06/25/funnel-problems-google-analytics/#sr=d&m=n&cp=d&ct=-tmc&ts=1399376525)
 - [Kimball13:Ch.8 Step Demension for Sequential Behavior][Kimball13]
 
--
 
+### Query Builder
+
+- [Google Analytics Tools - Query Explorer](http://ga-dev-tools.appspot.com/explorer/)
