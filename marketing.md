@@ -43,6 +43,21 @@ Marketing
 - [Kissmetrics vs Mixpanel : Start-Up Metrics](http://www.hoista.net/post/42841141761/kissmetrics-vs-mixpanel-start-up-metrics)
 
 
+## Basic Analysis Methods
+
+### Funnel
+
+measures the life cycle of your user.
+
+- [Funnel Problems in Google Analytics](http://www.lunametrics.com/blog/2008/06/25/funnel-problems-google-analytics/#sr=d&m=n&cp=d&ct=-tmc&ts=1399376525)
+- [Kimball13:Ch.8 Step Demension for Sequential Behavior][Kimball13]
+
+### Cohort
+
+segmenting user based on when they joined.
+
+- [Cohort Visualizer » A handy tool for browsing cohort datasets](http://bslatkin.github.io/cohorts/)
+
 ### Segmentation
 
 - [Google Analytics Visitor Segmentation: Users, Sequences, Cohorts! - Occam's Razor by Avinash Kaushik](http://www.kaushik.net/avinash/google-analytics-visitor-segmentation-users-sequences-cohorts/)
@@ -50,14 +65,21 @@ Marketing
 - [Advanced Web Analytics Visitor Segments: Non-Flirts, Social, Long Tail](http://www.kaushik.net/avinash/advanced-analytics-visitor-segments-engagement-social-media-search-long-tail/)
 - [LinkedIn's Segmentation & Targeting Platform (Hadoop Summit 2013)](http://www.slideshare.net/r39132/linkedins-segmentation-targeting-platform)
 
-
-### Cochort Analysis
-
-- [Cohort Visualizer » A handy tool for browsing cohort datasets](http://bslatkin.github.io/cohorts/)
-
 ### AB Test
 
 - [Mixpanel Blog | Mobile Analytics](https://mixpanel.com/blog/2010/08/05/mixpanel-tip-153-executing-ab-tests/)
+
+### Visualization
+
+**Visitor FLow**
+
+- [Path Analysis: A Good Use of Time? - Occam's Razor by Avinash Kaushik](http://www.kaushik.net/avinash/path-analysis-a-good-use-of-time/)
+- [Flow Visualization - Analytics Help](https://support.google.com/analytics/topic/2472754?hl=en&ref_topic=1727148)
+- [Path Analysis in Google Analytics with Flow Visualization - Analytics Talk](http://cutroni.com/blog/2011/10/19/path-analysis-in-google-analytics-with-flow-visualization/)
+- [How to Use Google Analytics Visitors Flow Reports to Improve Conversion Rates - Search Engine Watch (#SEW)](http://searchenginewatch.com/article/2273391/How-to-Use-Google-Analytics-Visitors-Flow-Reports-to-Improve-Conversion-Rates)
+
+
+## Ad Tracking
 
 ### Attribution
 
@@ -100,21 +122,7 @@ Types of attribution Models:
 - [Multi-Channel Attribution: Definitions, Models and a Reality Check](http://www.kaushik.net/avinash/multi-channel-attribution-definitions-models/)
 - 田中弦, アトリビューション 広告効果の考え方を根底から覆す新手法
 
-## Visualization
-
-### Visitor FLow
-
-- [Path Analysis: A Good Use of Time? - Occam's Razor by Avinash Kaushik](http://www.kaushik.net/avinash/path-analysis-a-good-use-of-time/)
-- [Flow Visualization - Analytics Help](https://support.google.com/analytics/topic/2472754?hl=en&ref_topic=1727148)
-- [Path Analysis in Google Analytics with Flow Visualization - Analytics Talk](http://cutroni.com/blog/2011/10/19/path-analysis-in-google-analytics-with-flow-visualization/)
-- [How to Use Google Analytics Visitors Flow Reports to Improve Conversion Rates - Search Engine Watch (#SEW)](http://searchenginewatch.com/article/2273391/How-to-Use-Google-Analytics-Visitors-Flow-Reports-to-Improve-Conversion-Rates)
-
-
-### Funnel
-
-- [Funnel Problems in Google Analytics](http://www.lunametrics.com/blog/2008/06/25/funnel-problems-google-analytics/#sr=d&m=n&cp=d&ct=-tmc&ts=1399376525)
-- [Kimball13:Ch.8 Step Demension for Sequential Behavior][Kimball13]
-
+## Tools
 
 ### Query Builder
 
